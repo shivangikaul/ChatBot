@@ -1,0 +1,233 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey,How are you",
+        "Is anyone there?",
+        "Hello",
+        "Hii",
+        "Hey",
+        "Hi,I need help?"
+      ],
+      "responses": [
+        "Hello, Hi,thanks for visiting",
+        "Hi,Good to see you again",
+        "Hi there, how can I help?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Bbyee", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+      
+      {
+      "tag": "acceptance",
+      "patterns": [
+        "Okay",
+          "Ok",
+        "Oh Okay",
+        "Ohh i see"
+      ],
+        "responses": [
+        "Yes, Anything else you want to know?",
+        "Yes"
+      ],
+      "context_set": ""
+    },  
+          
+          
+          
+          
+          
+      
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Thankyou", "That's helpful"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "insurance_def",
+      "patterns": [
+        "What is insurance?",
+        "What do you mean by insurance?",
+        "insurance meaning?",
+        "insurance?"
+      ],
+      "responses": [
+        "Insurance is a means of protection from financial loss. It is a form of risk management, primarily used to hedge against the risk of a contingent or uncertain loss.An entity which provides insurance is known as an insurer, insurance company, insurance carrier or underwriter. A person or entity who buys insurance is known as an insured or as a policyholder. The insurance transaction involves the insured assuming a guaranteed and known relatively small loss in the form of payment to the insurer in exchange for the insurer's promise to compensate the insured in the event of a covered loss. The loss may or may not be financial, but it must be reducible to financial terms, and usually involves something in which the insured has an insurable interest established by ownership, possession, or pre-existing relationship.",
+        "Insurance is a protection against financial loss arising on the happening of an unexpected event. Insurance companies collect premiums to provide for this protection and losses are paid out of the premiums collected from the insuring public."
+      ]
+    },
+    {
+      "tag": "types_of_insurance",
+      "patterns": ["types of insurance", "types", "categories?"],
+      "responses": [
+        "different types of Insurance Policies are- 1. Life Insurance or Personal Insurance. 2.Property Insurance. 3.Marine Insurance. 4.Fire Insurance. 5.Liability Insurance. 6.Guarantee Insurance. 7.Social Insurance."
+      ]
+    },
+    {
+      "tag": "need_of_insurance",
+      "patterns": [
+        "need of insurance?",
+        "why insurance?",
+        "What are the benefits of taking insurance?",
+        "advantages?",
+        "benefits?"
+      ],
+      "responses": [
+        "Insurance is a hedge against the occurrence of unforeseen incidents. Insurance products help you in not only mitigating risks but also helps you by providing a financial cushion against adverse financial burdens suffered.",
+        "Accidents... illness... fire... financial securities are the things you'd like to worry about any time. General Insurance provides you the much-needed protection against such unforeseen events. Unlike Life Insurance, General Insurance is not meant to offer returns but is a protection against contingencies. Under certain Acts of Parliament, some types of insurance like Motor Insurance and Public Liability Insurance have been made compulsory.",
+        "Insurance does not only protect risks but it provides an investment channel too. Life insurance provides a mode of investment. The insurance develops a habit of saving money by paying premium. The amount of policy is paid to the insured or to his nominees. In case of fixed time policies, the insured gets a lump-sum amount after the maturity of the policy."
+      ]
+    },
+
+    {
+      "tag": "health_insurance_def",
+      "patterns": [
+        "What is Health Insurance?",
+        "Health Insurance?",
+        "Medical Insurance?",
+        "What is Medical Insurance?"
+      ],
+      "responses": [
+        "The term health insurance is a type of insurance that covers your medical expenses. A health insurance policy is a contract between an insurer and an individual group in which the insurer agrees to provide specified health insurance cover at a particular premium",
+        "Health insurance policies cover the cost of medical treatments. Dental insurance, like medical insurance, protects policyholders for dental costs. In most developed countries, all citizens receive some health coverage from their governments, paid through taxation. In most countries, health insurance is often part of an employer's benefits."
+      ]
+    },
+
+    {
+      "tag": "health_insurance_need",
+      "patterns": [
+        "Need of  Health Insurance?",
+        "Why Health Insurance?",
+        "Health insurance benefits?",
+        "Advantages of  Health Insurance?"
+      ],
+      "responses": [
+        "Having health insurance is important for several reasons. Uninsured people receive less medical care and less timely care, they have worse health outcomes, and lack of insurance is a fiscal burden for them and their families. Moreover, the benefits of expanding coverage outweigh the costs for added services.",
+        "All of us should buy health insurance and for all members of our family, according to our needs. Buying health insurance protects us from the sudden, unexpected costs of hospitalization (or other covered health events, like critical illnesses) which would otherwise make a major dent into household savings or even lead to indebtedness.Each of us is exposed to various health hazards and a medical emergency can strike anyone of us without any prior warning. Healthcare is increasingly expensive, with technological advances, new procedures and more effective medicines that have also driven up the costs of healthcare. While these high treatment expenses may be beyond the reach of many, taking the security of health insurance is much more affordable.",
+        "Peace of Mind. Having health insurance gives you the chance to sustain or recover your health by providing a low cost way to show up to a physician and buying reasonable prescription drugs if needed",
+        "Buying a health insurance policy for yourself and your family is important because medical care is expensive, especially in the private sector. Hospitalisation can burn a hole in your pocket and derail your finances. It will become even tough, if the person who brings in the money, is now in a hospital bed. All this can be avoided by just paying a small annual premium which would lessen your stress in case of medical emergencies."
+      ]
+    },
+
+    {
+      "tag": "health_insurance_types",
+      "patterns": [
+        "Types of  Health Insurance?",
+        "Categories of Health Insurance?",
+        " Various Health insurance?"
+      ],
+      "responses": [
+        "Types of Health Insurance 1. Individual Health Insurance:  This policy covers the health expenses and hospitalization expenses of individual who has taken the policy. Premium under this policy is determined as per the age of insured. 2. Family Health Insurance Plan: Under this policy, an individual can include all the family members against multiple diseases under a single cover.  Family health plan offers a fixed sum assured for the family members, which can be availed by all members of the family or by any one individual in the family.3. Senior Citizen Health insurance Plan: This policy is designed for the senior citizens or individuals over 60 years of age offering protection from health issues during old age. 4. Surgery and Critical Illness Insurance Plan: This plan is suitable for the insured that requires treatment against critical illness, such as kidney failure, paralysis, cancer, heart attack etc. As the medical expenses of these treatments are very high, the premium applicable to these types of policies is also high. 5. Maternity Health Insurance Plan: This policy covers costs, including pre and postnatal care, child delivery expenses of newborn babies. This policy is also covered for the newborn up to a certain period of time as mentioned in the plan. Ambulance costs are also covered. 6. Personal Accident Plan: This policy covers hospitalization expenses in the event of an accident. Premium amount is depending upon the amount of cover taken. 7. Unit Linked Health Plan: These plans offer a unique combination of insurance and savings both at the same time. This policy helps in building a corpus which can be used to meet those expenditures which are not covered by the insurance policy."
+      ]
+    },
+    {
+      "tag": "choosing_health_insurance",
+      "patterns": [
+        "What are the things to look for while choosing a health insurance plan?",
+        "best health insurance plan?",
+        "best features of  health insurance plan?",
+        "features of health insurance plan?",
+        "how to find best Health Insurance plan?"
+      ],
+      "responses": [
+        "While choosing a health insurance policy there are a few things which you should be ready with are: Number of members and relations to be covered- Because this will be the basis of buying policy.Type of coverage – Individual, Family floater or group Sum insured or coverage amount – Ensure that you consider future expenses too.Room rent – Check for the capping amount or criteria defined if applicable.Sub-limits or co-pay applicable – Check for the sub-limits applicable for some specific list of ailments or package treatments. Also check if the plan has co-pay feature.Network hospital list – Check for the list of network hospitals and try buying a policy which covers your regular hospital.Policy wording – Most important thing to check before buying a policy. In case you are not sure about certain term or condition you can always contact the insurer for clarification."
+      ]
+    },
+
+    {
+      "tag": "Life_insurance_def",
+      "patterns": [
+        "What is Life Insurance?",
+        "Life Insurance?",
+        "term life insurance ?",
+        "What do you mean by Life Insurance?"
+      ],
+      "responses": [
+        "Life insurance provides a monetary benefit to a decedent's family or other designated beneficiary, and may specifically provide for income to an insured person's family, burial, funeral and other final expenses. Life insurance policies often allow the option of having the proceeds paid to the beneficiary either in a lump sum cash payment or an annuity. In most states, a person cannot purchase a policy on another person without their knowledge.",
+        "Life insurance is a contract between an insurance policy holder and an insurer or assurer, where the insurer promises to pay a designated beneficiary a sum of money in exchange for a premium, upon the death of an insured person."
+      ]
+    },
+
+    {
+      "tag": "Life_insurance_types",
+      "patterns": [
+        "Types of  Life Insurance?",
+        "Categories of Life Insurance?",
+        " Various Life insurance?"
+      ],
+      "responses": [
+        "1.Term Plan: pure risk cover, 2.Unit linked insurance plan (ULIP): Insurance + Investment opportunity,3.Endowment Plan: Insurance + Savings,4. Money Back: Periodic returns with insurance cover,5.Whole Life Insurance: Life coverage to the life assured for whole life,6.Child’s Plan: For fulfilling your child’s life goals like education, marriage, etc. 7.Retirement Plan: Plan your retirement and retire gracefully"
+      ]
+    },
+
+    {
+      "tag": "Car_insurance_def",
+      "patterns": [
+        "What is Car Insurance?",
+        "What is Auto Insurance?",
+        "What is Vehicle Insurance?",
+        "What is Motor Insurance?",
+        "Motor Insurance?",
+        "Car Insurance?",
+        "Car insurance Meaning ?",
+        "What do you mean by Car Insurance?"
+      ],
+      "responses": [
+        "Car insurance is a type of insurance policy required to provide protection to your vehicle against any damage which might result into a financial loss. In addition to it, any third party liability which has arisen due to use of your vehicle is covered under car insurance. As per the Motor Vehicle Act, it is mandatory to buy a liability only policy without which one cannot use the vehicle on road.",
+        "Vehicle insurance is insurance for cars, trucks, motorcycles, and other road vehicles. Its primary use is to provide financial protection against physical damage or bodily injury resulting from traffic collisions and against liability that could also arise from incidents in a vehicle.",
+        "Auto insurance is an agreement between you and your insurance company that can cover your car, damages you cause if you hit someone else, and other events. When you get car insurance, you're buying coverages, which are essentially things your insurer agrees to pay for"
+      ]
+    },
+
+    {
+      "tag": "Car_insurance_need",
+      "patterns": [
+        "Need of Car Insurance?",
+        "Need of Auto Insurance?",
+        "Need of Motor Insurance?",
+        "Why Car Insurance?",
+        "Car insurance benefits?",
+        "Advantages of Car Insurance?"
+      ],
+      "responses": [
+        "Mandatory by law: The Motor Vehicles Act of India has made it compulsory for all vehicles used in public spaces to have car insurance. A third-party liability policy is compulsory for all vehicles, but you can decide to go for a comprehensive car insurance policy too. The reason why third-party liability insurance is mandatory is that in case of accidents, any damages or losses to the property of a third party along with injuries to the said person are covered.Effective investment: Recent studies have shown that one in six car accidents take place in India. Whether you are at fault or not, these odds cannot be taken lightly. As such, having a comprehensive car insurance policy in place will ensure that your vehicle is covered for the costs incurred on repairs in case of accidents. It will also cover the policyholder for any bodily injuries.",
+        "Car insurance can help offset the loss of huge sum in the following manner: Provides benefits to survivors when an accident results in death. It covers lawsuits, including legal fees brought against you as the result of an accident. Covers the bills of vehicle repairs due to damage caused in an accident."
+      ]
+    },
+
+    {
+      "tag": "Car_insurance_types",
+      "patterns": [
+        "Types of Car Insurance?",
+        "Categories of Car Insurance?",
+        " Various Car insurance?"
+      ],
+      "responses": [
+        "1.Third-party Car Insurance:Third-party car insurance is a type of car insurance policy that covers the policyholder against legal liabilities that arise to a third party in case of an accident. If you are at fault in an accident and injuries are caused to a third party, or if their property is damaged, you will be covered by your third-party car insurance policy. Third-party liability is compulsory under the Motor Vehicles Act, 1988 for those who purchase, own, or drive a motor vehicle in India. 2.Comprehensive Car Insurance:If you wish to get the best kind of coverage for your vehicle, a comprehensive car insurance policy is what you need. As the term suggests, the policy offers comprehensive protection. In comparison with third-party liability car insurance, a comprehensive car insurance policy not only covers the costs incurred on loss or damages to a third party’s property, but also covers damages to your own vehicle in case of an accident. It also offers a range of extensive services that cannot be availed through a third-party liability car insurance policy."
+      ]
+    },
+    {
+      "tag": "premium_def",
+      "patterns": [
+        "What is premium?",
+        "What do you mean by premium?",
+        "premium meaning?",
+        "premium?"
+      ],
+      "responses": [
+        "An insurance premium is the amount of money an individual or business pays for an insurance policy.Once earned, the premium is income for the insurance company. It also represents a liability, as the insurer must provide coverage for claims being made against the policy.",
+        "Premium is an amount paid periodically to the insurer by the insured for covering his risk.The premium paying frequency can be different. It can be paid in monthly, quarterly, semiannually, annually or in a single premium."
+      ]
+    }
+  ]
+}
