@@ -1,0 +1,9 @@
+.chat-container {
+    width: 400px;
+    height: 550px;
+    margin: auto;
+    margin-top: 50px;
+    border: 2px solid black;
+    padding-top: 15px;
+    background-color: whitesmoke;
+}

@@ -1,0 +1,59 @@
+<div class="center chat-container">
+    <div class="list-messages" id="chatMsg" >
+        <div *ngFor="let message of messages let last = last" class="message-container">
+            <message [messages]="messages" class="message" [text]="message.text" [form]="sample" [colorBackRight]="colorBackRight" [colorFontRight]="colorFontRight" [colorBackLeft]="colorBackLeft" [colorFontLeft]="colorFontLeft" [owner]="message.userOwner" [ngClass]="{'left-message': !message.userOwner, 'right-message': message.userOwner}"></message>
+            <span *ngIf="last">{{ngForCallback()}}</span>
+        </div>
+        <div *ngIf="FeedBackBtn"><button class="btn btn-lg btn-outline-primary" type="button" mdbBtn color="primary" mdbWavesEffect (click)="openModal('FeedBackModal')">FeedBack</button></div>
+    </div>
+    <div class="input-message">
+        <textarea class="input-text-message" [(ngModel)]="textInput" placeholder="Type text here" (keyup)="onKey($event)"></textarea>
+        <i class="fa fa-paper-plane fa-2x input-send" aria-hidden="true" (click)="sendMessage()"></i>
+    </div>
+
+
+<!-- <div class="list-messages" id="chatMsg">
+    <div *ngFor="let message of messages  let last = last" class="message-container">
+        <message class="message" [text]="message.text" [date]="message.date" [form]="sample" [colorBackRight]="colorBackRight" [colorFontRight]="colorFontRight" [colorBackLeft]="colorBackLeft" [colorFontLeft]="colorFontLeft" [owner]="message.userOwner" [ngClass]="{'left-message': !message.userOwner, 'right-message': message.userOwner}"></message>
+        <span *ngIf="last">{{ngForCallback()}}</span>
+    </div>
+    <div *ngIf="FeedBackBtn"><button class="btn btn-lg btn-outline-primary" type="button" mdbBtn color="primary" mdbWavesEffect (click)="openModal('FeedBackModal')">FeedBack</button></div>
+</div>
+
+    <div *ngIf="FeedBackBtn"><button type="button" mdbBtn color="primary" mdbWavesEffect (click)="openModal('FeedBackModal')">FeedBack</button></div> -->
+
+
+
+    <!-- <div *ngIf="FeedBackBtn"><button type="button" mdbBtn color="primary" mdbWavesEffect>Primary</button></div> -->
+    <modal id="FeedBackModal">
+        <div class="modal">
+            <div class="modal-body">
+                <div class="modal-header card-header">
+                    <h1>Kindly share your experience</h1>
+                    <button type="button" class="close" aria-label="Close" (click)="closeModal('FeedBackModal');" style="background-color: red;">
+              <span aria-hidden="true">&times;</span>
+            </button>
+                    </div>
+                    <p>
+                        What is your overall experience interacting with the insurance bot?
+                        <input type="text" (keyup)="onKey1($event)" id="text1" required/>
+                    </p>
+                    <p>
+                        Are all your queries related to insurance solved? <input type="text"  (keyup)="onKey2($event)"  id="text2" required/>
+                    </p>
+                    <p>
+                        What aspect of our chatbot you don't like?<input type="text"  (keyup)="onKey3($event)"    id="text3" required/>
+                    </p>
+                    <p>
+                        Will you enroll in the insurance policy in  future?<input type="text"  (keyup)="onKey4($event) "  id="text4" required/>
+                    </p>
+                    <div class="modal-footer">
+                        <button  class="btn btn-outline-dark" (click)="submitFeedBack();" style="background-color: #28a745;border-color: #28a745;color: white;">Submit</button>
+                        <button  class="btn btn-outline-dark" (click)="closeModal('FeedBackModal');" >Close</button>
+                        </div>
+            </div>
+        </div>
+        <div class="modal-background"></div>
+    </modal>
+    
+    </div>
